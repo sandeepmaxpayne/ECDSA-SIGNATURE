@@ -2,6 +2,7 @@ package com.sandeep.ecdasignature
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
 import java.math.BigInteger
 import java.security.*
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         val pub = pair.public
 
 //        println("private${priv}")
-//        println("public$pub")
+        Log.d("pub", "public$pub")
 
         /*
          * Create a Signature object and initialize it with the private key
@@ -45,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         val dsa = Signature.getInstance("SHA1withECDSA")
         // val dsa = Signature.getInstance("SHA256withECDSA")
-        println()
+
         dsa.initSign(priv)
 
 
