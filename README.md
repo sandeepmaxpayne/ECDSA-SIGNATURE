@@ -5,7 +5,7 @@ It also generate a private key based on ECDSA on accepting a data.
 
 Link for the application : "https://drive.google.com/file/d/1-GPV3b1A7ydWs9Bgggv3bMbgeSRraJ6m/view?usp=sharing"
 
-__This is the public key I am getting generated for text "hi" in Log file :___
+__This is the public key I am getting generated for text "hi" in my Log file :
 
 ```
 2019-07-12 18:56:56.513 22799-22799/com.sandeep.ecdasignature D/pub: publicPublic-Key: (256 bit)
